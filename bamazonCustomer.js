@@ -69,8 +69,8 @@ function pickID() {
                     console.log("\n------------------------------------------------------------------------------------");
                     console.log("\nAwesome, we have just what you're looking for!");
                     console.log("\n-----------------------------------------------------------------------------------");
-                    // var updateStock = (response[i].stock_quantity - userPurchase.inputQty);
-                    // var purchaseID = (userPurchase.inputID);
+                    // var updateStock = JSON.stringify(response[i].stock_quantity - userPurchase.inputQty);
+                    // var purchaseID = JSON.stringify(userPurchase.inputID);
                     confirmPurchase();
                 }
             }
